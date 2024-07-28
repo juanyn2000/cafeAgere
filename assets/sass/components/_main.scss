@@ -1,0 +1,141 @@
+.main {
+  &__title {
+    font-size: $xxx-large;
+    margin: 0px;
+  }
+  &__subtitle {
+    font-size: $large;
+  }
+  &__contTitle {
+    position: relative;
+    top: -423px;
+    left: 980px;
+    width: 300px;
+  }
+  &__statistics {
+    display: flex;
+    justify-content: space-around;
+    background-color: $white;
+    padding: 20px;
+    width: 434px;
+    height: 100px;
+    align-items: center;
+    position: relative;
+    top: -356px;
+    left: 425px;
+  }
+
+  &__img2 {
+    position: relative;
+    top: -937px;
+    left: 901px;
+  }
+  &__contImgMaq {
+    position: relative;
+    left: 901px;
+    top: -937px;
+    width: 500px;
+    height: 380px;
+    overflow: hidden;
+  }
+  &__imgMaqCafe {
+    height: 380px;
+    position: relative;
+    top: 0px;
+    left: -135px;
+  }
+
+  &__contgrano {
+    width: 112px;
+    height: 194px;
+    position: relative;
+    top: -1317px;
+    left: 842px;
+    overflow: hidden;
+  }
+  &__imgGrano {
+    height: 194px;
+    position: relative;
+    top: 0px;
+    left: -130px;
+  }
+  &__paragraph {
+    position: relative;
+    top: -1477px;
+    left: 34px;
+  }
+  &__title2 {
+    font-size: $xx-large;
+    font-family: $roboto;
+  }
+  &__p {
+    font-size: $large;
+    font-family: $roboto;
+  }
+  &__map {
+    width: 452px;
+    height: 300px;
+    position: relative;
+    top: -1718px;
+    left: 362px;
+  }
+  &__icon {
+    font-size: 60px;
+    color: $white;
+  }
+}
+.statistics {
+  &__content {
+    padding: 10px;
+  }
+  &__value {
+    font-size: $x-large;
+    margin: 0%;
+  }
+  &__text {
+    font-size: $medium;
+  }
+  &__value {
+    font-family: $roboto;
+    font-size: $xx-large;
+    font-weight: bold;
+  }
+  &__text {
+    font-family: $roboto;
+    font-size: $large;
+    margin: 0%;
+  }
+}
+.box {
+  &__coral {
+    width: 140px;
+    height: 140px;
+    background-color: $coral;
+    position: relative;
+    top: -497px;
+    left: 899px;
+  }
+  &__flame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    background-color: $flame;
+    position: relative;
+    top: -668px;
+    left: 878px;
+  }
+  &__arrow {
+    width: 35px;
+    height: 60px;
+  }
+}
+.boxblue {
+  width: 477px;
+  height: 300px;
+  background-color: $bluedefrance;
+  position: relative;
+  top: -636px;
+  left: 424px;
+}

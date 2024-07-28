@@ -1,0 +1,56 @@
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 60px 30px 60px;
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+  &__logo {
+    height: 50px;
+    width: 50px;
+  }
+  &__text {
+    cursor: pointer;
+    color: $quicksilver;
+    margin-left: 30px;
+    font-family: PT mono;
+    font-size: $large;
+    &:hover {
+      color: black;
+    }
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+  &__buttonIN {
+    cursor: pointer;
+    background-color: $white;
+    width: 150px;
+    height: 30px;
+    border: 2px solid $quicksilver;
+    font-size: $medium;
+    &:hover {
+      border-color:  $black;
+     
+    }
+
+  }
+  &__buttonRE {
+    color: white;
+    margin-left: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: $shinyshamrock;
+    border: 0;
+    cursor: pointer;
+    font-size: $medium;
+    &:hover {
+      background-color: $tourquoisegreen;
+    }
+  }
+}
